@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">手机卫士</string>
+
+    <!--mainActivity-->
+    <string name="tv_version_statement">手机卫士 版 本：</string>
+    <!--版本简介-->
+    <string name="tv_version_intro">
+        1、升级手机防盗模块 \n
+        2、升级手机病毒库 \n
+        3、加强手机拦截功能 \n
+    </string>
+    <string name="tv_update_check">更新版本</string>
+    <!--主页上的介绍信息-->
+    <string name="menu_back">返回</string>
+    <string name="menu_title">标题</string>
+    <string name="menu_more">更多</string>
+    <!-- 检查更新的服务器地址 -->
+    <string name="url_update_app">http://192.168.0.103/android/up.json</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--引导见面上的信息-->
+    <string name="tv_guide_anti_theft_1_theme">1、欢迎使用手机防盗</string>
+    <string name="tv_guide_anti_theft_1_present">你的手机防盗卫士</string>
+    <string name="tv_guide_anti_theft_1_present_1">SIM卡变更报警</string>
+    <string name="tv_guide_anti_theft_1_present_2">GPS追踪</string>
+    <string name="tv_guide_anti_theft_1_present_3">远程数据销毁</string>
+    <string name="tv_guide_anti_theft_1_present_4">远程锁屏</string>
+
+    <string name="tv_guide_anti_theft_2_theme">2、手机卡绑定</string>
+    <string name="tv_guide_anti_theft_2_present">绑定SIM卡</string>
+    <string name="tv_guide_anti_theft_2_present_1">手机启动发现SIM卡发生变化, \n 自动发送报警短信</string>
+    <string name="tv_guide_anti_theft_binding_sim">绑定SIM卡</string>
+
+    <string name="tv_guide_anti_theft_3_theme">3、紧急联系人</string>
+    <string name="tv_guide_anti_theft_3_present">SIM变化后手机会自动向紧急联系人发送报警短信</string>
+
+    <!--短信指令指令全局-->
+    <string name="instruction_location">#*location*#</string>
+    <string name="instruction_alarm">#*alarm*#</string>
+    <string name="instruction_wipedate">#*wipedate*#</string>
+    <string name="instruction_lockSereen">#*lockSereen*#</string>
+
+    <!--超级管理员描述-->
+    <string name="device_admin_description">超级管理员，才能为你远程锁屏和远程删除数据</string>
+    <string name="device_admin">手机防盗管理员</string>
+    <string name="accessbiliityNo">请为App打开辅助功能开关！！</string>
+
+</resources>

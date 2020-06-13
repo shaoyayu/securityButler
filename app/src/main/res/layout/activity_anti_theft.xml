@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.AntiTheftActivity">
+    <icu.shaoyayu.android.security.butler.view.SimpleMenu
+        android:id="@+id/sm_anti_theft"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:paddingLeft="15dp"
+            android:id="@+id/tv_is_anti_theft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="开启防盗" />
+
+        <Switch
+            android:id="@+id/sw_is_anti_theft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <!--重置绑定SIM卡-->
+    <!--重置联系人-->
+    <!--指令提示-->
+    <LinearLayout
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:padding="10dp"
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="功能介绍" />
+
+        <LinearLayout
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                app:srcCompat="@android:drawable/btn_star_big_on" />
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="GPS 追踪：#*location*#" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                app:srcCompat="@android:drawable/btn_star_big_on" />
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="播放报警音乐：#*alarm*#" />
+        </LinearLayout>
+        <LinearLayout
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                app:srcCompat="@android:drawable/btn_star_big_on" />
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="远程删除数据：#*wipedate*#" />
+        </LinearLayout>
+        <LinearLayout
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                app:srcCompat="@android:drawable/btn_star_big_on" />
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="远程锁屏：#*lockSereen*# [密码：2222]" />
+        </LinearLayout>
+        <Button
+            android:background="@drawable/bg_assess"
+            android:id="@+id/bt_activate_admin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="激活超级管理员" />
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_assess"
+            android:id="@+id/bt_set_up_anti_theft"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="设置绑定SIMk和联系人" />
+
+
+    </LinearLayout>
+    <!--测试使用-->
+
+</LinearLayout>
