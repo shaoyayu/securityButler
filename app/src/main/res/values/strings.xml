@@ -15,7 +15,7 @@
     <string name="menu_title">标题</string>
     <string name="menu_more">更多</string>
     <!-- 检查更新的服务器地址 -->
-    <string name="url_update_app">http://192.168.0.103/android/up.json</string>
+    <string name="url_update_app">http://192.168.0.101/android/up.json</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

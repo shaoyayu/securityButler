@@ -75,7 +75,7 @@ public class CircleProgressBar extends View {
             RectF oval = new RectF(getWidth() / 2 - radius, getHeight() / 2 - radius, getWidth() / 2 + radius, getHeight() / 2 + radius);
             canvas.drawArc(oval, 0, 0, false, ringPaint);
             canvas.drawArc(oval, -90, ((float) currentProgress / totalProgress) * 360, false, ringPaint);
-            String txt = currentProgress + "%";
+            String txt = currentProgress + "";
             txtWidth = textPaint.measureText(txt, 0, txt.length());
             canvas.drawText(txt, getWidth() / 2 - txtWidth / 2, getHeight() / 2 + txtHeight / 4, textPaint);
         }
