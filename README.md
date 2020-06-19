@@ -102,7 +102,7 @@ Android 5+ 版本
 
  
 
-  ![img](images/clip_image016.png)![img](file:///C:/Users/shaoy/AppData/Local/Temp/msohtmlclip1/01/clip_image018.png)![img](file:///C:/Users/shaoy/AppData/Local/Temp/msohtmlclip1/01/clip_image020.png)![img](file:///C:/Users/shaoy/AppData/Local/Temp/msohtmlclip1/01/clip_image022.png)  
+  ![img](images/clip_image016.png)![img](images/clip_image018.png)![img](images/clip_image020.png)![img](images/clip_image022.png)  
 
 图 2.-2-4-1 所示
 
