@@ -1096,7 +1096,15 @@ Layout代码：[activity_anti_theft.xml](https://github.com/shaoyayu/securityBut
 
  
 
-  ![img](images/clip_image061.png)![img](file:///C:/Users/shaoy/AppData/Local/Temp/msohtmlclip1/01/clip_image063.png)![img](file:///C:/Users/shaoy/AppData/Local/Temp/msohtmlclip1/01/clip_image065.png)  
+  ![img](images/clip_image061.png)
+
+
+
+![img](images/clip_image063.png)
+
+![img](images/clip_image065.png)
+
+  
 
  
 
