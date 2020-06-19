@@ -1095,20 +1095,11 @@ Layout代码：[activity_anti_theft.xml](https://github.com/shaoyayu/securityBut
 ​    第一个GuideAntiTheftOneFragment是手机防盗的相关介绍，第二个GuideAntiTheftTwoFragment是一个绑定SIM卡的见面，用户在这个地方点击开启绑定开关。开启绑定的时候需要用户来初始化一个防盗密码。关闭的时候也是要输入防盗密码。系统会保存SIM卡号，保存SIM的绑定是否绑定的状态、保存密码的MD5加密。第三个GuideAntiTheftThreeFragment使用来绑定联系人的。点击输入框或点击右侧的通讯录标识都会跳转到选择联系人模块，选择好的联系人会传递到当前的Activity中来。GuideAntiTheftActivity的onRestart()方法被调用的时候，重新初始化一次显示联系人的适配器，重新显示绑定联系人。
 
  
-
-  ![img](images/clip_image061.png)
-
-
-
-![img](images/clip_image063.png)
-
-![img](images/clip_image065.png)
+![img](images/clip_image061.png)![img](images/clip_image063.png)![img](images/clip_image065.png)
 
   
 
- 
-
- 
+  
 
 Activity代码：[GuideAntiTheftActivity.java](https://github.com/shaoyayu/securityButler/blob/master/app/src/main/java/icu/shaoyayu/android/security/butler/activity/GuideAntiTheftActivity.java)
 
